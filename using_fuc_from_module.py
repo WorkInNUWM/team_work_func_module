@@ -3,6 +3,7 @@
 # 2. Радчук
 # 3. Рахильчук
 # 4. Семенюк
+# 5. Хомич
 
 #Скласти програму мовою python для реалізаці наступних завдань.
 # 0.     Напишіть і перевірте роботу функції F1(string), яка створює та повертає рядок, що складається з малих літер рядка, переданого як аргумент, але у зворотному порядку їх появи, наприклад, для рядка: 'Ala ma Kota" функція повертає: "atoamal"
@@ -19,3 +20,16 @@
 #  5. F5(L), яка перевірить і поверне кількість голосних у списку L.
 #Оформіть як окремий модуль в окремому пакеті.
 #Продемнструйте використання описаних функцій у файлі using_fuc_from_module.py
+
+# ================Shrolt============
+# import packegeShrol.myfunc
+# packegeShrol.myfunc.printHello()
+# import packegeShrol.myfunc as shrolFunc
+# shrolFunc.printHello()
+
+from packegeShrol.myfunc import printHello, suma, returnSuma
+
+printHello()
+suma(2,3)
+suma(b=2,a=3)
+print("S=",returnSuma(5,6))
