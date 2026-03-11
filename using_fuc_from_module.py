@@ -21,7 +21,7 @@
 #Оформіть як окремий модуль в окремому пакеті.
 #Продемнструйте використання описаних функцій у файлі using_fuc_from_module.py
 
-# ================Shrolt============
+# ================Shrolt==========================================
 # import packegeShrol.myfunc
 # packegeShrol.myfunc.printHello()
 # import packegeShrol.myfunc as shrolFunc
@@ -33,3 +33,7 @@ printHello()
 suma(2,3)
 suma(b=2,a=3)
 print("S=",returnSuma(5,6))
+
+print("========Using my nested functions======")
+import packegeShrol.working_nested_func as pwnf
+pwnf.expression_calc(3,4,pwnf.add)
