@@ -45,3 +45,4 @@ pwnf.expression_calc(3,4,pwnf.add)
 
 import packegeRadchuk.myfunc21 as RadF
 RadF.myfunc()
+RadF.myfunc2()
