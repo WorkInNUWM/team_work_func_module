@@ -47,3 +47,8 @@ import packegeRadchuk.myfunc21 as RadF
 RadF.myfunc()
 
 #======================Rakhylchuk===============
+import packegeRakhylchuk.myfunc as RMf
+print("#======================Rakhylchuk===============")
+test_str = "Рахильчук Михайло"
+RMf.F4(test_str)
+ 
